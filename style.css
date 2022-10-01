@@ -1,0 +1,62 @@
+body{
+
+    background: #e9dcf5;
+}
+
+#todo{
+    padding: 5px 10px;
+        font-family: 'Poppins',sans-serif;
+
+}
+
+#todo input{
+    position: relative;
+    width: 70%;
+    padding: 4px;
+    font-family: 'Poppins',sans-serif;
+    border-radius: 5px;
+
+}
+
+#todo input:focus{
+    outline: none;
+    border-color: #81d4f5;
+}
+
+#todo button{
+    padding: 4px;
+    position: relative;
+    width: 10%;
+    height: 30px;
+    border-radius: 6px;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    background-color: #5677cb;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    outline: none;
+}
+#todo button:focus {
+         border: 1px solid white; }
+#todolist{
+    background-color: rgb(223, 252, 251);
+    padding: 20px 16px;
+    margin-top: 10px;
+    border-radius: 5px;
+    width: 75%;
+    left:10px;
+    position: relative;
+}
+
+.task button{
+    background-color: #6583e5;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    height: 100%;
+    width: 40px;
+    border-radius: 5px;
+}
